@@ -59,6 +59,9 @@ main {
 .weather-app-details strong {
   color: #f65282;
 }
+.weather-app-temperature-container {
+  display: flex;
+}
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 300 0 0 0;
