@@ -58,7 +58,7 @@ function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
   let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-  return days[date.getDay];
+  return days[date.getDay()];
 }
 
 function getForecast(city) {
